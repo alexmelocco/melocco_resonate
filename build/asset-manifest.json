@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/melocco_resonate/static/css/main.bba97c29.css",
+    "main.js": "/melocco_resonate/static/js/main.1fbe4512.js",
+    "index.html": "/melocco_resonate/index.html",
+    "main.bba97c29.css.map": "/melocco_resonate/static/css/main.bba97c29.css.map",
+    "main.1fbe4512.js.map": "/melocco_resonate/static/js/main.1fbe4512.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bba97c29.css",
+    "static/js/main.1fbe4512.js"
+  ]
+}
