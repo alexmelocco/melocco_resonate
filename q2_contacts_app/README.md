@@ -17,6 +17,9 @@ This is my take on the contacts page for the Resonate technical assessment. I co
 
 - Deployed on github pages - just for convinience and ease of access
 
+# Code itself
+-  main functionality is in the folder src/components.
+
 # Basic operation (normal commands)
 - `npm start`
 - `npm test`
