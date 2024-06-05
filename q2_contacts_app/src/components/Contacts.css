@@ -1,0 +1,116 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.contacts {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.contacts h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #5c5c5c;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+}
+
+.controls input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* width: 200px; */
+    width: 40%;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #5c5c5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px; /* Set a fixed height for the button */
+    white-space: nowrap; /* Prevent text from wrapping */
+    
+}
+
+.contacts-list.grid {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contacts-list.list {
+    list-style: none;
+    padding: 0;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Align the list items to the left */
+}
+
+.contacts li {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, rgba(243, 231, 233, 0.4), rgba(227, 238, 255, 0.4)); 
+    text-align: center;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.contacts li:hover {
+    background: linear-gradient(135deg, rgba(243, 231, 233, 0.8), rgba(227, 238, 255, 0.8));
+}
+
+.contacts li:hover h2 {
+    color: #393939;
+}
+
+.contacts h2 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #5c5c5c;
+    padding-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contacts p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #535353;
+}
+
+/* Animation for adding and removing items */
+.contact-item {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
