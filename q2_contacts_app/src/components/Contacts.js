@@ -13,7 +13,7 @@ const Contacts = () => {
         setContacts(response.data);
       })
       .catch(error => {
-        console.error('There was an error fetching the contacts!', error);
+        console.error('Error fetching the contacts', error);
       });
   }, []);
 

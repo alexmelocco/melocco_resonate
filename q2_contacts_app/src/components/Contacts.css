@@ -19,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    flex-wrap: wrap; 
 }
 
 .controls input {
@@ -40,8 +40,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    height: 40px; /* Set a fixed height for the button */
-    white-space: nowrap; /* Prevent text from wrapping */
+    height: 40px; 
+    white-space: nowrap;
     
 }
 
@@ -63,7 +63,7 @@ body {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    text-align: left; /* Align the list items to the left */
+    text-align: left;
 }
 
 .contacts li {
@@ -99,7 +99,6 @@ body {
     color: #535353;
 }
 
-/* Animation for adding and removing items */
 .contact-item {
     animation: fadeIn 0.5s;
 }
